@@ -21,62 +21,124 @@ body {
   background-image: url(../img/mine-img.png);
   background-position: top;
   background-size: cover;
+  padding: 35px;
 }
-.main header {
+.main > .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.main > .container > .for-header {
+  width: 100%;
+  height: 100px;
+}
+.main > .container > .for-header > header {
+  width: 95%;
   display: flex;
   justify-content: space-between;
   position: fixed;
-  padding: 30px;
 }
-.main header .header-main {
+.main > .container > .for-header > header .header-main {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.main header .header-main .icon-plant {
+.main > .container > .for-header > header .header-main .icon-plant {
   display: flex;
   align-items: center;
   width: 4.688rem;
   height: 4.688rem;
 }
-.main header .header-main .icon-plant .img-icon-plant {
+.main > .container > .for-header > header .header-main .icon-plant .img-icon-plant {
   width: 100%;
   height: 100%;
 }
-.main header .header-main .icon-plant > .Description-for-img-icon-plant {
+.main > .container > .for-header > header .header-main .icon-plant > .Description-for-img-icon-plant {
   font-size: 30px;
 }
-.main header .header-main > .menu-for-header-main {
+.main > .container > .for-header > header .header-main > .menu-for-header-main {
   display: flex;
   margin-top: 1.625rem;
 }
-.main header .header-main > .menu-for-header-main > .children-menu-for-header-main {
+.main > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main {
   display: flex;
   gap: 5.625rem;
 }
-.main header .header-main > .menu-for-header-main > .children-menu-for-header-main > a {
+.main > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a {
   text-decoration: none;
   color: #fff;
   transition: 300ms;
 }
-.main header .header-main > .menu-for-header-main > .children-menu-for-header-main > a:hover {
+.main > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a:hover {
   transform: scale(1.7);
 }
-.main header .header-main > .menu-for-header-main > .children-menu-for-header-main > a > span {
+.main > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a > span {
   font-size: 30px;
 }
-.main header .header-main > .shortcuts-for-header {
+.main > .container > .for-header > header .header-main > .shortcuts-for-header {
   width: 8rem;
   height: 5rem;
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
-.main header .header-main > .shortcuts-for-header > img {
+.main > .container > .for-header > header .header-main > .shortcuts-for-header > img {
   transition: 300ms;
   font-size: 25px;
 }
-.main header .header-main > .shortcuts-for-header > img:hover {
+.main > .container > .for-header > header .header-main > .shortcuts-for-header > img:hover {
   transform: scale(1.7);
+}
+.main > .container > .title-main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 35px;
+  gap: 20px;
+}
+.main > .container > .title-main > .parent-titles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main > .container > .title-main > .parent-titles > .heading-primary-main {
+  font-size: 169px;
+}
+.main > .container > .title-main > .parent-titles > .heading-primary-sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.main > .container > .title-main > .parent-titles > .heading-primary-sub > .btn-explore {
+  width: 13%;
+  background: none;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #fff;
+  font-family: fa-font;
+  border-radius: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 500ms;
+}
+.main > .container > .title-main > .parent-titles > .heading-primary-sub > .btn-explore:hover {
+  transform: scale(1.1);
+}
+.main > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > img {
+  transition: 500ms;
+  cursor: pointer;
+}
+.main > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > img:hover {
+  transform: scale(1.1);
+}
+.main > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > span {
+  white-space: nowrap;
 }/*# sourceMappingURL=mine.css.map */

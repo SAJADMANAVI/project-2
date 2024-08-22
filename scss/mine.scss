@@ -22,61 +22,124 @@ body {
   background-image: url(../img/mine-img.png);
   background-position: top;
   background-size: cover;
-  header {
+  padding: 35px;
+  > .container {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    padding: 30px;
-    .header-main {
-        width: 100%;
-      display: flex;
-      justify-content: space-between;
-      .icon-plant {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    > .for-header {
+      width: 100%;
+      height: 100px;
+      > header {
+        width: 95%;
         display: flex;
-        align-items: center;
-        width: 4.688rem;
-        height: 4.688rem;
-        // padding-left: 0.625rem;
-        // padding-top: 0.625rem;
-        .img-icon-plant {
+        justify-content: space-between;
+        position: fixed;
+        // padding: 30px;
+        .header-main {
           width: 100%;
-          height: 100%;
-        }
-        >.Description-for-img-icon-plant{
-            font-size: 30px;
-        }
-      }
-      > .menu-for-header-main {
-        display: flex;
-        margin-top: 1.625rem;
-        > .children-menu-for-header-main {
           display: flex;
-          gap: 5.625rem;
-          > a {
-            text-decoration: none;
-            color: #fff;
-            transition: 300ms;
-            &:hover {
-              transform: scale(1.7);
+          justify-content: space-between;
+          .icon-plant {
+            display: flex;
+            align-items: center;
+            width: 4.688rem;
+            height: 4.688rem;
+            // padding-left: 0.625rem;
+            // padding-top: 0.625rem;
+            .img-icon-plant {
+              width: 100%;
+              height: 100%;
             }
-            > span {
+            > .Description-for-img-icon-plant {
               font-size: 30px;
+            }
+          }
+          > .menu-for-header-main {
+            display: flex;
+            margin-top: 1.625rem;
+            > .children-menu-for-header-main {
+              display: flex;
+              gap: 5.625rem;
+              > a {
+                text-decoration: none;
+                color: #fff;
+                transition: 300ms;
+                &:hover {
+                  transform: scale(1.7);
+                }
+                > span {
+                  font-size: 30px;
+                }
+              }
+            }
+          }
+          > .shortcuts-for-header {
+            width: 8rem;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            > img {
+              transition: 300ms;
+              font-size: 25px;
+              &:hover {
+                transform: scale(1.7);
+              }
             }
           }
         }
       }
-      > .shortcuts-for-header {
-        width: 8rem;
-        height: 5rem;
+    }
+    > .title-main {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      padding: 35px;
+      gap: 20px;
+      > .parent-titles {
         display: flex;
-        align-items: center;
-        gap: 1.5rem;
-        > img {
-          transition: 300ms;
-          font-size: 25px;
-          &:hover {
-            transform: scale(1.7);
+        flex-wrap: wrap;
+        > .heading-primary-main {
+          font-size: 169px;
+        }
+        > .heading-primary-sub {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          > .btn-explore {
+            width: 13%;
+            background: none;
+            color: #fff;
+            padding: 10px;
+            border: 2px solid #fff;
+            font-family: fa-font;
+            border-radius: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 500ms;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+          > .Icon-phrase-live-demo {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            > img {
+              transition: 500ms;
+              cursor: pointer;
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+            > span {
+              white-space: nowrap;
+            }
           }
         }
       }
