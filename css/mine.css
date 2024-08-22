@@ -1,5 +1,82 @@
+@font-face {
+  font-family: fa-font;
+  src: url(../fonts/IRANSansDN.ttf);
+  src: url(../fonts/IRANSansDN.woff);
+  src: url(../fonts/iransansdn.woff2);
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-size: 17px;
+  color: #fff;
+  font-family: fa-font;
+}
+
+.main {
+  height: 300vh;
+  background-image: url(../img/mine-img.png);
+  background-position: top;
+  background-size: cover;
+}
+.main header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 30px;
+}
+.main header .header-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main header .header-main .icon-plant {
+  display: flex;
+  align-items: center;
+  width: 4.688rem;
+  height: 4.688rem;
+}
+.main header .header-main .icon-plant .img-icon-plant {
+  width: 100%;
+  height: 100%;
+}
+.main header .header-main .icon-plant > .Description-for-img-icon-plant {
+  font-size: 30px;
+}
+.main header .header-main > .menu-for-header-main {
+  display: flex;
+  margin-top: 1.625rem;
+}
+.main header .header-main > .menu-for-header-main > .children-menu-for-header-main {
+  display: flex;
+  gap: 5.625rem;
+}
+.main header .header-main > .menu-for-header-main > .children-menu-for-header-main > a {
+  text-decoration: none;
+  color: #fff;
+  transition: 300ms;
+}
+.main header .header-main > .menu-for-header-main > .children-menu-for-header-main > a:hover {
+  transform: scale(1.7);
+}
+.main header .header-main > .menu-for-header-main > .children-menu-for-header-main > a > span {
+  font-size: 30px;
+}
+.main header .header-main > .shortcuts-for-header {
+  width: 8rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.main header .header-main > .shortcuts-for-header > img {
+  transition: 300ms;
+  font-size: 25px;
+}
+.main header .header-main > .shortcuts-for-header > img:hover {
+  transform: scale(1.7);
 }/*# sourceMappingURL=mine.css.map */

@@ -1,5 +1,85 @@
+@font-face {
+  font-family: fa-font;
+  src: url(../fonts/IRANSansDN.ttf);
+  src: url(../fonts/IRANSansDN.woff);
+  src: url(../fonts/iransansdn.woff2);
+}
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 17px;
+  color: #fff;
+  font-family: fa-font;
+}
+
+.main {
+  height: 300vh;
+  background-image: url(../img/mine-img.png);
+  background-position: top;
+  background-size: cover;
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 30px;
+    .header-main {
+        width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .icon-plant {
+        display: flex;
+        align-items: center;
+        width: 4.688rem;
+        height: 4.688rem;
+        // padding-left: 0.625rem;
+        // padding-top: 0.625rem;
+        .img-icon-plant {
+          width: 100%;
+          height: 100%;
+        }
+        >.Description-for-img-icon-plant{
+            font-size: 30px;
+        }
+      }
+      > .menu-for-header-main {
+        display: flex;
+        margin-top: 1.625rem;
+        > .children-menu-for-header-main {
+          display: flex;
+          gap: 5.625rem;
+          > a {
+            text-decoration: none;
+            color: #fff;
+            transition: 300ms;
+            &:hover {
+              transform: scale(1.7);
+            }
+            > span {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+      > .shortcuts-for-header {
+        width: 8rem;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        > img {
+          transition: 300ms;
+          font-size: 25px;
+          &:hover {
+            transform: scale(1.7);
+          }
+        }
+      }
+    }
+  }
 }
