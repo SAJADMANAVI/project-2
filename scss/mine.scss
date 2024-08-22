@@ -144,5 +144,75 @@ body {
         }
       }
     }
+    > .parent-box-for-Trendy-House-Plant {
+      display: flex;
+      justify-content: end;
+      height: 200px;
+      > .box-for-Trendy-House-Plant {
+        width: 28%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #e5eae70b;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 50px;
+        > .swiper-for-Trendy-House-Plant {
+          width: 110%;
+          height: 50%;
+          swiper-container {
+            width: 100%;
+            height: 130%;
+            transform: translateY(-8rem);
+          }
+
+          swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            //background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            margin-bottom: 1rem;
+          }
+        }
+        > .Description-for-swiper-for-that-Trendy-House-Plant {
+          display: flex;
+          flex-direction: column;
+          width: 73%;
+          padding: 15px;
+          justify-content: center;
+          margin-bottom: 5rem;
+          >.Description-first-The-first-vase{
+            font-size: 29px;
+          }
+          >.Description-2-The-first-vase{
+            font-size: 57px;
+          }
+          >.buy-now-1{
+            width: 47%;
+            background: none;
+            border: 2px solid #fff;
+            font-family: fa-font;
+            color: #fff;
+            height: 3rem;
+            border-radius: 20px;
+            transition: 500ms;
+            cursor: pointer;
+            &:hover{
+              transform: scale(1.4);
+            }
+          }
+        }
+      }
+    }
   }
 }
