@@ -4,6 +4,13 @@
   src: url(../fonts/IRANSansDN.woff);
   src: url(../fonts/iransansdn.woff2);
 }
+@import "media";
+@import "xxl";
+@import "xl";
+@import "lg";
+@import "md";
+@import "sm";
+@import "xs";
 
 * {
   padding: 0;
@@ -22,7 +29,7 @@ body {
   background-image: url(../img/mine-img.png);
   background-position: top;
   background-size: cover;
-  padding: 35px;
+  // padding: 35px;
   > .container {
     width: 100%;
     margin-right: auto;
@@ -104,11 +111,14 @@ body {
         flex-wrap: wrap;
         > .heading-primary-main {
           font-size: 169px;
+          white-space: nowrap;
         }
         > .heading-primary-sub {
           display: flex;
           flex-wrap: wrap;
           gap: 1rem;
+          font-size: 28px;
+          text-align: justify;
           > .btn-explore {
             width: 13%;
             background: none;
@@ -230,6 +240,15 @@ body {
         text-align: center;
         padding: 25px;
         margin-right: 2%;
+      }
+    }
+    >.Our-Trendy-plants{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      >.desciption-Our-Trendy-plants{
+        font-size: 35px;
+        border-bottom: 2px solid #F2E8C6;
       }
     }
   }

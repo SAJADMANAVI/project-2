@@ -4,6 +4,11 @@
   src: url(../fonts/IRANSansDN.woff);
   src: url(../fonts/iransansdn.woff2);
 }
+@media (min-width: 1400px) {
+  .container {
+    min-width: 1650px !important;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +26,6 @@ body {
   background-image: url(../img/mine-img.png);
   background-position: top;
   background-size: cover;
-  padding: 35px;
 }
 .main > .container {
   width: 100%;
@@ -103,11 +107,14 @@ body {
 }
 .main > .container > .title-main > .parent-titles > .heading-primary-main {
   font-size: 169px;
+  white-space: nowrap;
 }
 .main > .container > .title-main > .parent-titles > .heading-primary-sub {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  font-size: 28px;
+  text-align: justify;
 }
 .main > .container > .title-main > .parent-titles > .heading-primary-sub > .btn-explore {
   width: 13%;
@@ -228,4 +235,13 @@ body {
   text-align: center;
   padding: 25px;
   margin-right: 2%;
+}
+.main > .container > .Our-Trendy-plants {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main > .container > .Our-Trendy-plants > .desciption-Our-Trendy-plants {
+  font-size: 35px;
+  border-bottom: 2px solid #F2E8C6;
 }/*# sourceMappingURL=mine.css.map */
