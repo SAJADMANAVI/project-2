@@ -35,10 +35,9 @@ body {
   height: 100px;
 }
 .main > .container > .for-header > header {
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  position: fixed;
 }
 .main > .container > .for-header > header .header-main {
   width: 100%;
@@ -145,7 +144,7 @@ body {
 .main > .container > .parent-box-for-Trendy-House-Plant {
   display: flex;
   justify-content: end;
-  height: 200px;
+  height: 550px;
 }
 .main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant {
   width: 28%;
@@ -181,11 +180,13 @@ body {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
 }
 .main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   width: 73%;
   padding: 15px;
   justify-content: center;
@@ -210,4 +211,21 @@ body {
 }
 .main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .buy-now-1:hover {
   transform: scale(1.4);
+}
+.main > .container > .comment-customer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.main > .container > .comment-customer > .box-comment-customer {
+  width: 18%;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  padding: 25px;
+  margin-right: 2%;
 }/*# sourceMappingURL=mine.css.map */
