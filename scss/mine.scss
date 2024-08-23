@@ -22,9 +22,11 @@ body {
   font-size: 17px;
   color: #fff;
   font-family: fa-font;
+  height: 600vh;
+  background-color: rgb(24, 33, 24);
 }
 
-.main {
+.main1 {
   height: 300vh;
   background-image: url(../img/mine-img.png);
   background-position: top;
@@ -40,7 +42,7 @@ body {
       width: 100%;
       height: 100px;
       > header {
-        width: 100%;
+        width: 100%; 
         display: flex;
         justify-content: space-between;
         // position: fixed;
@@ -104,15 +106,15 @@ body {
     > .title-main {
       display: flex;
       flex-direction: column;
-      width: 75%;
-      padding: 35px;
+      width: 65%;
+      // padding: 35px;
       gap: 15px;
       margin-top: 10%;
       > .parent-titles {
         display: flex;
         flex-wrap: wrap;
         > .heading-primary-main {
-          font-size: 264px;
+          font-size: 244px;
           white-space: nowrap;
         }
         > .heading-primary-sub {
@@ -160,6 +162,8 @@ body {
       display: flex;
       justify-content: end;
       height: 550px;
+      width: 100%;
+      transform: translateY(-20rem);
       // margin-top: 15%;
       > .box-for-Trendy-House-Plant {
         width: 28%;
@@ -236,7 +240,10 @@ body {
       flex-wrap: wrap;
       justify-content: flex-start;
       > .box-comment-customer {
-        width: 18%;
+        width: 25%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
         background: #e5eae70b;
         backdrop-filter: blur(10px);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -244,7 +251,10 @@ body {
         padding: 10px;
         text-align: center;
         padding: 25px;
-        margin-right: 2%;
+        gap: 2rem;
+        align-items: end;
+        transform: translateY(-5rem);
+        // margin-right: 2%;
       }
     }
     > .Our-Trendy-plants {

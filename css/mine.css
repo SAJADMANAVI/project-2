@@ -19,106 +19,107 @@ body {
   font-size: 17px;
   color: #fff;
   font-family: fa-font;
+  height: 600vh;
+  background-color: rgb(24, 33, 24);
 }
 
-.main {
+.main1 {
   height: 300vh;
   background-image: url(../img/mine-img.png);
   background-position: top;
   background-size: cover;
 }
-.main > .container {
+.main1 > .container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
 }
-.main > .container > .for-header {
+.main1 > .container > .for-header {
   width: 100%;
   height: 100px;
 }
-.main > .container > .for-header > header {
+.main1 > .container > .for-header > header {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.main > .container > .for-header > header .header-main {
+.main1 > .container > .for-header > header .header-main {
   margin-top: 30px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.main > .container > .for-header > header .header-main .icon-plant {
+.main1 > .container > .for-header > header .header-main .icon-plant {
   display: flex;
   align-items: center;
   width: 4.688rem;
   height: 4.688rem;
 }
-.main > .container > .for-header > header .header-main .icon-plant .img-icon-plant {
+.main1 > .container > .for-header > header .header-main .icon-plant .img-icon-plant {
   width: 100%;
   height: 100%;
 }
-.main > .container > .for-header > header .header-main .icon-plant > .Description-for-img-icon-plant {
+.main1 > .container > .for-header > header .header-main .icon-plant > .Description-for-img-icon-plant {
   font-size: 30px;
 }
-.main > .container > .for-header > header .header-main > .menu-for-header-main {
+.main1 > .container > .for-header > header .header-main > .menu-for-header-main {
   display: flex;
   margin-top: 1.625rem;
 }
-.main > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main {
+.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main {
   display: flex;
   gap: 5.625rem;
 }
-.main > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a {
+.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a {
   text-decoration: none;
   color: #fff;
   transition: 300ms;
 }
-.main > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a:hover {
+.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a:hover {
   transform: scale(1.7);
 }
-.main > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a > span {
+.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a > span {
   font-size: 30px;
 }
-.main > .container > .for-header > header .header-main > .shortcuts-for-header {
+.main1 > .container > .for-header > header .header-main > .shortcuts-for-header {
   width: 8rem;
   height: 5rem;
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
-.main > .container > .for-header > header .header-main > .shortcuts-for-header > img {
+.main1 > .container > .for-header > header .header-main > .shortcuts-for-header > img {
   transition: 300ms;
   font-size: 25px;
 }
-.main > .container > .for-header > header .header-main > .shortcuts-for-header > img:hover {
+.main1 > .container > .for-header > header .header-main > .shortcuts-for-header > img:hover {
   transform: scale(1.7);
 }
-.main > .container > .title-main {
+.main1 > .container > .title-main {
   display: flex;
   flex-direction: column;
-  width: 75%;
-  padding: 35px;
+  width: 65%;
   gap: 15px;
   margin-top: 10%;
 }
-.main > .container > .title-main > .parent-titles {
+.main1 > .container > .title-main > .parent-titles {
   display: flex;
   flex-wrap: wrap;
 }
-.main > .container > .title-main > .parent-titles > .heading-primary-main {
-  font-size: 264px;
+.main1 > .container > .title-main > .parent-titles > .heading-primary-main {
+  font-size: 244px;
   white-space: nowrap;
 }
-.main > .container > .title-main > .parent-titles > .heading-primary-sub {
+.main1 > .container > .title-main > .parent-titles > .heading-primary-sub {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   font-size: 28px;
   text-align: justify;
 }
-.main > .container > .title-main > .parent-titles > .heading-primary-sub > .btn-explore {
+.main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .btn-explore {
   width: 13%;
   background: none;
   color: #fff;
@@ -130,32 +131,34 @@ body {
   cursor: pointer;
   transition: 500ms;
 }
-.main > .container > .title-main > .parent-titles > .heading-primary-sub > .btn-explore:hover {
+.main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .btn-explore:hover {
   transform: scale(1.1);
 }
-.main > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo {
+.main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo {
   width: 50px;
   height: 50px;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.main > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > img {
+.main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > img {
   transition: 500ms;
   cursor: pointer;
 }
-.main > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > img:hover {
+.main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > img:hover {
   transform: scale(1.1);
 }
-.main > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > span {
+.main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > span {
   white-space: nowrap;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant {
+.main1 > .container > .parent-box-for-Trendy-House-Plant {
   display: flex;
   justify-content: end;
   height: 550px;
+  width: 100%;
+  transform: translateY(-20rem);
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant {
   width: 28%;
   height: 600px;
   display: flex;
@@ -167,23 +170,23 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .swiper-for-Trendy-House-Plant {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .swiper-for-Trendy-House-Plant {
   width: 110%;
   height: 50%;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .swiper-for-Trendy-House-Plant swiper-container {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .swiper-for-Trendy-House-Plant swiper-container {
   width: 100%;
   height: 130%;
   transform: translateY(-8rem);
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .swiper-for-Trendy-House-Plant swiper-slide {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .swiper-for-Trendy-House-Plant swiper-slide {
   text-align: center;
   font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .swiper-for-Trendy-House-Plant swiper-slide img {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .swiper-for-Trendy-House-Plant swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -192,7 +195,7 @@ body {
   margin-bottom: 2.5rem;
   text-align: center;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -202,13 +205,13 @@ body {
   margin-bottom: 5rem;
   text-align: center;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .Description-first-The-first-vase {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .Description-first-The-first-vase {
   font-size: 29px;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .Description-2-The-first-vase {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .Description-2-The-first-vase {
   font-size: 57px;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .buy-now-1 {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .buy-now-1 {
   width: 47%;
   background: none;
   border: 2px solid #fff;
@@ -220,16 +223,19 @@ body {
   transform: translateX(-5.5rem);
   cursor: pointer;
 }
-.main > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .buy-now-1:hover {
+.main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .buy-now-1:hover {
   transform: scale(1.4);
 }
-.main > .container > .comment-customer {
+.main1 > .container > .comment-customer {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.main > .container > .comment-customer > .box-comment-customer {
-  width: 18%;
+.main1 > .container > .comment-customer > .box-comment-customer {
+  width: 25%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
   background: rgba(229, 234, 231, 0.0431372549);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -238,23 +244,25 @@ body {
   padding: 10px;
   text-align: center;
   padding: 25px;
-  margin-right: 2%;
+  gap: 2rem;
+  align-items: end;
+  transform: translateY(-5rem);
 }
-.main > .container > .Our-Trendy-plants {
+.main1 > .container > .Our-Trendy-plants {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.main > .container > .Our-Trendy-plants > .desciption-Our-Trendy-plants {
+.main1 > .container > .Our-Trendy-plants > .desciption-Our-Trendy-plants {
   font-size: 35px;
   border-bottom: 2px solid #f2e8c6;
 }
-.main > .container > .For-Small-Decs-Ai-Plat {
+.main1 > .container > .For-Small-Decs-Ai-Plat {
   width: 100%;
   margin-top: 5%;
   height: 605px;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat {
   width: 100%;
   height: 100%;
   background: rgba(229, 234, 231, 0.0431372549);
@@ -264,15 +272,15 @@ body {
   border-radius: 50px;
   display: flex;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .img-For-Small-Decs-Ai-Plat {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .img-For-Small-Decs-Ai-Plat {
   width: 41%;
   height: 138%;
   display: flex;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .img-For-Small-Decs-Ai-Plat > .child-img-For-Small-Decs-Ai-Plat {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .img-For-Small-Decs-Ai-Plat > .child-img-For-Small-Decs-Ai-Plat {
   transform: translateY(-11rem);
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat {
   width: 56%;
   height: 100%;
   justify-content: center;
@@ -281,20 +289,20 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat-solid-first {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat-solid-first {
   font-size: 36px;
   white-space: nowrap;
   width: inherit;
   margin-right: 10%;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat-solid-Second {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat-solid-Second {
   font-size: 21px;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .btn-buy-For-Small-Decs-Ai-Plat {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .btn-buy-For-Small-Decs-Ai-Plat {
   width: 50px;
   height: 50px;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat > .explore-1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat > .explore-1 {
   width: 27%;
   background: none;
   color: #fff;
@@ -304,28 +312,28 @@ body {
   transition: 350ms;
   margin-right: 10%;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat > .explore-1:hover {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat > .explore-1:hover {
   transform: scale(1.3);
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat > .btn-buy-For-Small-Decs-Ai-Plat {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat > .btn-buy-For-Small-Decs-Ai-Plat {
   background: none;
   border: solid 2px #fff;
   border-radius: 10px;
   padding: 5px;
   transition: 350ms;
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat > .btn-buy-For-Small-Decs-Ai-Plat:hover {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat > .btn-buy-For-Small-Decs-Ai-Plat:hover {
   transform: scale(1.3);
 }
-.main > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .The-price-of-the-first-item {
+.main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .The-price-of-the-first-item {
   font-size: 40px;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 {
   width: 100%;
   margin-top: 5%;
   height: 605px;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 {
   width: 100%;
   height: 100%;
   background: rgba(229, 234, 231, 0.0431372549);
@@ -335,15 +343,15 @@ body {
   border-radius: 50px;
   display: flex;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .img-For-Small-Decs-Ai-Plat1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .img-For-Small-Decs-Ai-Plat1 {
   width: 41%;
   height: 138%;
   display: flex;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .img-For-Small-Decs-Ai-Plat1 > .child-img-For-Small-Decs-Ai-Plat1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .img-For-Small-Decs-Ai-Plat1 > .child-img-For-Small-Decs-Ai-Plat1 {
   transform: translateY(-11rem);
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 {
   width: 56%;
   height: 100%;
   justify-content: center;
@@ -352,20 +360,20 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat-solid-first1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat-solid-first1 {
   font-size: 36px;
   white-space: nowrap;
   width: inherit;
   margin-right: 10%;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat-solid-Second1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat-solid-Second1 {
   font-size: 21px;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .btn-buy-For-Small-Decs-Ai-Plat1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .btn-buy-For-Small-Decs-Ai-Plat1 {
   width: 50px;
   height: 50px;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 > .explore-2 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 > .explore-2 {
   width: 27%;
   background: none;
   color: #fff;
@@ -375,19 +383,19 @@ body {
   transition: 350ms;
   margin-right: 10%;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 > .explore-2:hover {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 > .explore-2:hover {
   transform: scale(1.3);
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 > .btn-buy-For-Small-Decs-Ai-Plat1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 > .btn-buy-For-Small-Decs-Ai-Plat1 {
   background: none;
   border: solid 2px #fff;
   border-radius: 10px;
   padding: 5px;
   transition: 350ms;
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 > .btn-buy-For-Small-Decs-Ai-Plat1:hover {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 > .btn-buy-For-Small-Decs-Ai-Plat1:hover {
   transform: scale(1.3);
 }
-.main > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .The-price-of-the-first-item1 {
+.main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .The-price-of-the-first-item1 {
   font-size: 40px;
 }/*# sourceMappingURL=mine.css.map */
