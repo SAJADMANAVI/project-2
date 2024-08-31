@@ -22,7 +22,7 @@ body {
   font-size: 17px;
   color: #fff;
   font-family: fa-font;
-  height: 600vh;
+  // height: 600vh;
   background-color: rgb(24, 33, 24);
 }
 
@@ -30,7 +30,7 @@ body {
   height: 300vh;
   background-image: url(../img/mine-img.png);
   background-position: top;
-  background-size: cover; 
+  background-size: cover;
   // padding: 35px;
   > .container {
     width: 100%;
@@ -426,9 +426,9 @@ body {
         // gap: 10rem;
         justify-content: space-evenly;
         > .box1-for-sale-menu {
-          display: flex;
-          justify-content: center; 
-          flex-wrap: wrap;
+          // display: flex;
+          // justify-content: center;
+          // flex-wrap: wrap;
           align-items: start;
           width: 25%;
           height: 37.5rem;
@@ -436,7 +436,7 @@ body {
           backdrop-filter: blur(10px);
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
           border-radius: 50px;
-          >.image1-for-box1-for-sale-menu{
+          > .image1-for-box1-for-sale-menu {
             display: flex;
             justify-content: center;
             width: 100%;
@@ -447,7 +447,39 @@ body {
               transform: translateY(-8rem);
             }
           }
-
+          > .description-for-image1-for-box1-for-sale-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 80%;
+            justify-content: center;
+            transform: translateX(-3rem);
+            > .name-plant-for-box1 {
+              font-size: 3rem;
+            }
+            > .parent-button-for-box1 {
+              display: flex;
+              justify-content: space-between;
+              > .button-for-box1 {
+                width: 50px;
+                height: 50px;
+                background: none;
+                border: 2px solid #fff;
+                border-radius: 15px;
+                padding: 8px;
+                transition: 350ms;
+                // margin-bottom: 2rem;
+                transform: translateY(-1rem);
+                &:hover {
+                  transform: scale(1.3);
+                }
+                > img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
         }
         > .box2-for-sale-menu {
           width: 25%;
@@ -456,15 +488,48 @@ body {
           backdrop-filter: blur(10px);
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
           border-radius: 50px;
-          >.image2-for-box1-for-sale-menu{
+          > .image2-for-box1-for-sale-menu {
             width: 100%;
             display: flex;
             justify-content: center;
-            height: 100%;
+            // height: 100%;
             > img {
               width: 80%;
               height: 70%;
               transform: translateY(-8rem);
+            }
+          }
+          > .description-for-image2-for-box1-for-sale-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 80%;
+            justify-content: center;
+            transform: translateX(-3rem);
+            > .name-plant-for-box2 {
+              font-size: 3rem;
+            }
+            > .parent-button-for-box2 {
+              display: flex;
+              justify-content: space-between;
+              > .button-for-box2 {
+                width: 50px;
+                height: 50px;
+                background: none;
+                border: 2px solid #fff;
+                border-radius: 15px;
+                padding: 8px;
+                transition: 350ms;
+                // margin-bottom: 2rem;
+                transform: translateY(-1rem);
+                &:hover {
+                  transform: scale(1.3);
+                }
+                > img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
             }
           }
         }
@@ -475,15 +540,48 @@ body {
           backdrop-filter: blur(10px);
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
           border-radius: 50px;
-          >.image3-for-box1-for-sale-menu{
+          > .image3-for-box1-for-sale-menu {
             display: flex;
             justify-content: center;
             width: 100%;
-            height: 100%;
+
             > img {
               width: 80%;
               height: 70%;
               transform: translateY(-10rem);
+            }
+          }
+          > .description-for-image3-for-box1-for-sale-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 80%;
+            justify-content: center;
+            transform: translateX(-3rem);
+            > .name-plant-for-box3 {
+              font-size: 3rem;
+            }
+            > .parent-button-for-box3 {
+              display: flex;
+              justify-content: space-between;
+              > .button-for-box3 {
+                width: 50px;
+                height: 50px;
+                background: none;
+                border: 2px solid #fff;
+                border-radius: 15px;
+                padding: 8px;
+                transition: 350ms;
+                // margin-bottom: 2rem;
+                transform: translateY(-1rem);
+                &:hover {
+                  transform: scale(1.3);
+                }
+                > img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
             }
           }
         }
@@ -499,15 +597,48 @@ body {
           backdrop-filter: blur(10px);
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
           border-radius: 50px;
-          >.image4-for-Row-Second-of-menu{
+          > .image4-for-Row-Second-of-menu {
             display: flex;
             justify-content: center;
             width: 100%;
-            height: 100%;
+
             > img {
               width: 80%;
               height: 70%;
               transform: translateY(-8rem);
+            }
+          }
+          > .description-for-image4-for-box1-for-sale-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 80%;
+            justify-content: center;
+            transform: translateX(-3rem);
+            > .name-plant-for-box4 {
+              font-size: 3rem;
+            }
+            > .parent-button-for-box4 {
+              display: flex;
+              justify-content: space-between;
+              > .button-for-box4 {
+                width: 50px;
+                height: 50px;
+                background: none;
+                border: 2px solid #fff;
+                border-radius: 15px;
+                padding: 8px;
+                transition: 350ms;
+                // margin-bottom: 2rem;
+                transform: translateY(-1rem);
+                &:hover {
+                  transform: scale(1.3);
+                }
+                > img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
             }
           }
         }
@@ -518,15 +649,48 @@ body {
           backdrop-filter: blur(10px);
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
           border-radius: 50px;
-          >.image5-for-Row-Second-of-menu{
+          > .image5-for-Row-Second-of-menu {
             display: flex;
             justify-content: center;
             width: 100%;
-            height: 100%;
+
             > img {
               width: 80%;
               height: 70%;
               transform: translateY(-8rem);
+            }
+          }
+          > .description-for-image5-for-box1-for-sale-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 80%;
+            justify-content: center;
+            transform: translateX(-3rem);
+            > .name-plant-for-box5 {
+              font-size: 3rem;
+            }
+            > .parent-button-for-box5 {
+              display: flex;
+              justify-content: space-between;
+              > .button-for-box5 {
+                width: 50px;
+                height: 50px;
+                background: none;
+                border: 2px solid #fff;
+                border-radius: 15px;
+                padding: 8px;
+                transition: 350ms;
+                // margin-bottom: 2rem;
+                transform: translateY(-1rem);
+                &:hover {
+                  transform: scale(1.3);
+                }
+                > img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
             }
           }
         }
@@ -537,15 +701,48 @@ body {
           backdrop-filter: blur(10px);
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
           border-radius: 50px;
-          >.image6-for-Row-Second-of-menu{
+          > .image6-for-Row-Second-of-menu {
             display: flex;
             justify-content: center;
             width: 100%;
-            height: 100%;
+
             > img {
               width: 80%;
-              height:70%;
+              height: 70%;
               transform: translateY(-8rem);
+            }
+          }
+          > .description-for-image6-for-box1-for-sale-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 80%;
+            justify-content: center;
+            transform: translateX(-3rem);
+            > .name-plant-for-box6 {
+              font-size: 3rem;
+            }
+            > .parent-button-for-box6 {
+              display: flex;
+              justify-content: space-between;
+              > .button-for-box6 {
+                width: 50px;
+                height: 50px;
+                background: none;
+                border: 2px solid #fff;
+                border-radius: 15px;
+                padding: 8px;
+                transition: 350ms;
+                // margin-bottom: 2rem;
+                transform: translateY(-1rem);
+                &:hover {
+                  transform: scale(1.3);
+                }
+                > img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
             }
           }
         }
