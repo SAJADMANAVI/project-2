@@ -6,7 +6,7 @@
 }
 @media (min-width: 1400px) {
   .container {
-    min-width: 1850px !important;
+    min-width: 1720px !important;
   }
 }
 * {
@@ -64,24 +64,8 @@ body {
 .main1 > .container > .for-header > header .header-main .icon-plant > .Description-for-img-icon-plant {
   font-size: 30px;
 }
-.main1 > .container > .for-header > header .header-main > .menu-for-header-main {
-  display: flex;
-  margin-top: 1.625rem;
-}
-.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main {
-  display: flex;
-  gap: 5.625rem;
-}
-.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a {
-  text-decoration: none;
+.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .nav > .nav-item > .nav-link {
   color: #fff;
-  transition: 300ms;
-}
-.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a:hover {
-  transform: scale(1.7);
-}
-.main1 > .container > .for-header > header .header-main > .menu-for-header-main > .children-menu-for-header-main > a > span {
-  font-size: 30px;
 }
 .main1 > .container > .for-header > header .header-main > .shortcuts-for-header {
   width: 8rem;
@@ -204,6 +188,7 @@ body {
   justify-content: center;
   margin-bottom: 5rem;
   text-align: center;
+  align-items: center;
 }
 .main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .Description-first-The-first-vase {
   font-size: 29px;
@@ -220,7 +205,6 @@ body {
   height: 3rem;
   border-radius: 20px;
   transition: 500ms;
-  transform: translateX(-5.5rem);
   cursor: pointer;
 }
 .main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .buy-now-1:hover {
@@ -246,7 +230,7 @@ body {
   padding: 25px;
   gap: 2rem;
   align-items: end;
-  transform: translateY(-5rem);
+  transform: translateY(-21rem);
 }
 .main1 > .container > .Our-Trendy-plants {
   width: 100%;
@@ -254,13 +238,14 @@ body {
   justify-content: center;
 }
 .main1 > .container > .Our-Trendy-plants > .desciption-Our-Trendy-plants {
-  font-size: 35px;
+  font-size: 60px;
   border-bottom: 2px solid #f2e8c6;
+  transform: translateY(-25rem);
 }
 .main1 > .container > .For-Small-Decs-Ai-Plat {
   width: 100%;
-  margin-top: 5%;
-  height: 605px;
+  height: 550px;
+  transform: translateY(-21rem);
 }
 .main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat {
   width: 100%;
@@ -329,9 +314,10 @@ body {
   font-size: 40px;
 }
 .main1 > .container > .For-Small-Decs-Ai-Plat1 {
+  transform: translateY(-21rem);
   width: 100%;
   margin-top: 5%;
-  height: 605px;
+  height: 550px;
 }
 .main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 {
   width: 100%;
@@ -398,4 +384,150 @@ body {
 }
 .main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .The-price-of-the-first-item1 {
   font-size: 40px;
+}
+
+.main2 > .big-menu {
+  padding-top: 10rem;
+  width: 100%;
+  height: 100rem;
+  display: flex;
+}
+.main2 > .big-menu > .sale-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box1-for-sale-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: start;
+  width: 25%;
+  height: 37.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box1-for-sale-menu > .image1-for-box1-for-sale-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box1-for-sale-menu > .image1-for-box1-for-sale-menu > img {
+  width: 80%;
+  height: 70%;
+  transform: translateY(-8rem);
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box2-for-sale-menu {
+  width: 25%;
+  height: 37.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box2-for-sale-menu > .image2-for-box1-for-sale-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box2-for-sale-menu > .image2-for-box1-for-sale-menu > img {
+  width: 80%;
+  height: 70%;
+  transform: translateY(-8rem);
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box3-for-sale-menu {
+  width: 25%;
+  height: 37.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box3-for-sale-menu > .image3-for-box1-for-sale-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.main2 > .big-menu > .sale-menu > .row-frist-of-menu > .box3-for-sale-menu > .image3-for-box1-for-sale-menu > img {
+  width: 80%;
+  height: 70%;
+  transform: translateY(-10rem);
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box4-for-sale-menu {
+  width: 25%;
+  height: 37.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box4-for-sale-menu > .image4-for-Row-Second-of-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box4-for-sale-menu > .image4-for-Row-Second-of-menu > img {
+  width: 80%;
+  height: 70%;
+  transform: translateY(-8rem);
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box5-for-sale-menu {
+  width: 25%;
+  height: 37.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box5-for-sale-menu > .image5-for-Row-Second-of-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box5-for-sale-menu > .image5-for-Row-Second-of-menu > img {
+  width: 80%;
+  height: 70%;
+  transform: translateY(-8rem);
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box6-for-sale-menu {
+  width: 25%;
+  height: 37.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box6-for-sale-menu > .image6-for-Row-Second-of-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box6-for-sale-menu > .image6-for-Row-Second-of-menu > img {
+  width: 80%;
+  height: 70%;
+  transform: translateY(-8rem);
 }/*# sourceMappingURL=mine.css.map */
