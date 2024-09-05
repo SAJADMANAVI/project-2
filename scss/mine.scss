@@ -27,72 +27,75 @@ body {
 }
 
 .main1 {
-  height: 300vh;
+  // height: 300vh;
   background-image: url(../img/mine-img.png);
   background-position: top;
   background-size: cover;
   // padding: 35px;
+  > .for-header {
+    width: 100%;
+    height: 100px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    > header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      // position: fixed;
+      // padding: 30px;
+      .header-main {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .icon-plant {
+          display: flex;
+          align-items: center;
+          width: 4.688rem;
+          height: 4.688rem;
+          // padding-left: 0.625rem;
+          // padding-top: 0.625rem;
+          .img-icon-plant {
+            width: 100%;
+            height: 100%;
+          }
+          > .Description-for-img-icon-plant {
+            font-size: 30px;
+          }
+        }
+        > .menu-for-header-main {
+          > .nav {
+            > .nav-item {
+              > .nav-link {
+                color: #fff;
+              }
+            }
+          }
+        }
+        > .shortcuts-for-header {
+          width: 8rem;
+          height: 5rem;
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          > img {
+            transition: 300ms;
+            font-size: 25px;
+            &:hover {
+              transform: scale(1.7);
+            }
+          }
+        }
+      }
+    }
+  }
   > .container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-    > .for-header {
-      width: 100%;
-      height: 100px;
-      > header {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        // position: fixed;
-        // padding: 30px;
-        .header-main {
-          margin-top: 30px;
-          width: 100%;
-          display: flex;
-          justify-content: space-between;
-          .icon-plant {
-            display: flex;
-            align-items: center;
-            width: 4.688rem;
-            height: 4.688rem;
-            // padding-left: 0.625rem;
-            // padding-top: 0.625rem;
-            .img-icon-plant {
-              width: 100%;
-              height: 100%;
-            }
-            > .Description-for-img-icon-plant {
-              font-size: 30px;
-            }
-          }
-          > .menu-for-header-main {
-            > .nav {
-              > .nav-item {
-                > .nav-link {
-                  color: #fff;
-                }
-              }
-            }
-          }
-          > .shortcuts-for-header {
-            width: 8rem;
-            height: 5rem;
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            > img {
-              transition: 300ms;
-              font-size: 25px;
-              &:hover {
-                transform: scale(1.7);
-              }
-            }
-          }
-        }
-      }
-    }
+
     > .title-main {
       display: flex;
       flex-direction: column;
@@ -104,7 +107,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         > .heading-primary-main {
-          font-size: 244px;
+          font-size: 100px;
           white-space: nowrap;
         }
         > .heading-primary-sub {
@@ -130,10 +133,10 @@ body {
             width: 50px;
             height: 50px;
             display: flex;
-            align-items: center;transition: 500ms;
+            align-items: center;
+            transition: 500ms;
             gap: 1rem;
             > img {
-              
               cursor: pointer;
               &:hover {
                 transform: scale(1.1);
@@ -286,13 +289,13 @@ body {
           display: flex;
           flex-direction: column;
           > .description-For-Small-Decs-Ai-Plat-solid-first {
-            font-size: 36px;
+            font-size: 28px;
             white-space: nowrap;
             width: inherit;
             // margin-right: 10%;
           }
           > .description-For-Small-Decs-Ai-Plat-solid-Second {
-            font-size: 21px;
+            font-size: 16px;
             // white-space: nowrap;
           }
           > .btn-buy-For-Small-Decs-Ai-Plat {
@@ -360,13 +363,13 @@ body {
           display: flex;
           flex-direction: column;
           > .description-For-Small-Decs-Ai-Plat-solid-first1 {
-            font-size: 36px;
+            font-size: 28px;
             white-space: nowrap;
             width: inherit;
             margin-right: 10%;
           }
           > .description-For-Small-Decs-Ai-Plat-solid-Second1 {
-            font-size: 21px;
+            font-size: 16px;
             margin-right: 15%;
             // white-space: nowrap;
           }
@@ -801,6 +804,7 @@ body {
         > .discriptin-img-and-discraption-for-box1 {
           padding: 50px;
           text-align: justify;
+          font-size: 14px;
         }
       }
       > .box2-that-boxs-Customer-Review {
@@ -838,6 +842,7 @@ body {
         > .discriptin-img-and-discraption-for-box2 {
           padding: 50px;
           text-align: justify;
+          font-size: 14px;
         }
       }
       > .box3-that-boxs-Customer-Review {
@@ -875,6 +880,7 @@ body {
         > .discriptin-img-and-discraption-for-box3 {
           padding: 50px;
           text-align: justify;
+          font-size: 14px;
         }
       }
     }
@@ -929,7 +935,7 @@ body {
               color: #fff;
               border-radius: 10px;
               transition: 350ms;
-              &:hover{
+              &:hover {
                 transform: scale(1.3);
               }
             }
