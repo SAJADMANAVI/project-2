@@ -111,8 +111,6 @@ body {
   font-family: fa-font;
   border-radius: 15px;
   font-size: 18px;
-  cursor: pointer;
-  transition: 500ms;
 }
 .main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .btn-explore:hover {
   transform: scale(1.1);
@@ -122,10 +120,10 @@ body {
   height: 50px;
   display: flex;
   align-items: center;
+  transition: 500ms;
   gap: 1rem;
 }
 .main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > img {
-  transition: 500ms;
   cursor: pointer;
 }
 .main1 > .container > .title-main > .parent-titles > .heading-primary-sub > .Icon-phrase-live-demo > img:hover {
@@ -277,7 +275,6 @@ body {
   font-size: 36px;
   white-space: nowrap;
   width: inherit;
-  margin-right: 10%;
 }
 .main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat-solid-Second {
   font-size: 21px;
@@ -353,6 +350,7 @@ body {
 }
 .main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat-solid-Second1 {
   font-size: 21px;
+  margin-right: 15%;
 }
 .main1 > .container > .For-Small-Decs-Ai-Plat1 > .box-For-Small-Decs-Ai-Plat1 > .description-For-Small-Decs-Ai-Plat1 > .btn-buy-For-Small-Decs-Ai-Plat1 {
   width: 50px;
@@ -713,4 +711,277 @@ body {
 .main2 > .big-menu > .sale-menu > .Row-Second-of-menu > .box6-for-sale-menu > .description-for-image6-for-box1-for-sale-menu > .parent-button-for-box6 > .button-for-box6 > img {
   width: 100%;
   height: 100%;
+}
+.main2 > .Customer-Review {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.main2 > .Customer-Review > .paragraf-for-Customer-Review {
+  width: 18%;
+  border-bottom: 2px solid #f2e8c6;
+  padding: 10px;
+}
+.main2 > .container > .boxs-Customer-Review {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+}
+.main2 > .container > .boxs-Customer-Review > .box1-that-boxs-Customer-Review {
+  width: 25%;
+  height: 30.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .container > .boxs-Customer-Review > .box1-that-boxs-Customer-Review > .img-and-discraption-for-box1 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+.main2 > .container > .boxs-Customer-Review > .box1-that-boxs-Customer-Review > .img-and-discraption-for-box1 > .img-for-box1 {
+  width: 35%;
+  height: 90%;
+  border-radius: 50%;
+}
+.main2 > .container > .boxs-Customer-Review > .box1-that-boxs-Customer-Review > .img-and-discraption-for-box1 > .span-and-icon-stars {
+  width: 60%;
+}
+.main2 > .container > .boxs-Customer-Review > .box1-that-boxs-Customer-Review > .img-and-discraption-for-box1 > .span-and-icon-stars > .icons-for-img-for-box1 {
+  width: 100%;
+}
+.main2 > .container > .boxs-Customer-Review > .box1-that-boxs-Customer-Review > .img-and-discraption-for-box1 > .span-and-icon-stars > .icons-for-img-for-box1 > img {
+  width: 10%;
+  height: inherit;
+}
+.main2 > .container > .boxs-Customer-Review > .box1-that-boxs-Customer-Review > .discriptin-img-and-discraption-for-box1 {
+  padding: 50px;
+  text-align: justify;
+}
+.main2 > .container > .boxs-Customer-Review > .box2-that-boxs-Customer-Review {
+  width: 25%;
+  height: 30.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .container > .boxs-Customer-Review > .box2-that-boxs-Customer-Review > .img-and-discraption-for-box2 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+.main2 > .container > .boxs-Customer-Review > .box2-that-boxs-Customer-Review > .img-and-discraption-for-box2 > .img-for-box2 {
+  width: 35%;
+  height: 90%;
+  border-radius: 50%;
+}
+.main2 > .container > .boxs-Customer-Review > .box2-that-boxs-Customer-Review > .img-and-discraption-for-box2 > .span-and-icon-stars2 {
+  width: 60%;
+}
+.main2 > .container > .boxs-Customer-Review > .box2-that-boxs-Customer-Review > .img-and-discraption-for-box2 > .span-and-icon-stars2 > .icons-for-img-for-box2 {
+  width: 100%;
+}
+.main2 > .container > .boxs-Customer-Review > .box2-that-boxs-Customer-Review > .img-and-discraption-for-box2 > .span-and-icon-stars2 > .icons-for-img-for-box2 > img {
+  width: 10%;
+  height: inherit;
+}
+.main2 > .container > .boxs-Customer-Review > .box2-that-boxs-Customer-Review > .discriptin-img-and-discraption-for-box2 {
+  padding: 50px;
+  text-align: justify;
+}
+.main2 > .container > .boxs-Customer-Review > .box3-that-boxs-Customer-Review {
+  width: 25%;
+  height: 30.5rem;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.main2 > .container > .boxs-Customer-Review > .box3-that-boxs-Customer-Review > .img-and-discraption-for-box3 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+.main2 > .container > .boxs-Customer-Review > .box3-that-boxs-Customer-Review > .img-and-discraption-for-box3 > .img-for-box3 {
+  width: 35%;
+  height: 90%;
+  border-radius: 50%;
+}
+.main2 > .container > .boxs-Customer-Review > .box3-that-boxs-Customer-Review > .img-and-discraption-for-box3 > .span-and-icon-stars3 {
+  width: 60%;
+}
+.main2 > .container > .boxs-Customer-Review > .box3-that-boxs-Customer-Review > .img-and-discraption-for-box3 > .span-and-icon-stars3 > .icons-for-img-for-box3 {
+  width: 100%;
+}
+.main2 > .container > .boxs-Customer-Review > .box3-that-boxs-Customer-Review > .img-and-discraption-for-box3 > .span-and-icon-stars3 > .icons-for-img-for-box3 > img {
+  width: 10%;
+  height: inherit;
+}
+.main2 > .container > .boxs-Customer-Review > .box3-that-boxs-Customer-Review > .discriptin-img-and-discraption-for-box3 {
+  padding: 50px;
+  text-align: justify;
+}
+.main2 > .container > .our-best {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.main2 > .container > .our-best > .paragraph-our-best {
+  border-bottom: 2px solid #f2e8c6;
+}
+.main2 > .container > .box-for-swipper-end swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.main2 > .container > .box-for-swipper-end swiper-slide {
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 18px;
+  background: rgba(229, 234, 231, 0.0431372549);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.main2 > .container > .box-for-swipper-end swiper-slide > .disciptsin-for-box-for-swipper-end-slide1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main2 > .container > .box-for-swipper-end swiper-slide > .disciptsin-for-box-for-swipper-end-slide1 > .paragraph-for-slide1 {
+  width: 70%;
+  text-align: justify;
+}
+.main2 > .container > .box-for-swipper-end swiper-slide > .disciptsin-for-box-for-swipper-end-slide1 > .parent-button-for-slide1 {
+  width: 70%;
+  display: flex;
+  justify-content: end;
+  transition: 350ms;
+}
+.main2 > .container > .box-for-swipper-end swiper-slide > .disciptsin-for-box-for-swipper-end-slide1 > .parent-button-for-slide1 > .button-for-slide1 {
+  background: none;
+  font-family: fa-font;
+  padding: 1rem;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+  transition: 350ms;
+}
+.main2 > .container > .box-for-swipper-end swiper-slide > .disciptsin-for-box-for-swipper-end-slide1 > .parent-button-for-slide1 > .button-for-slide1:hover {
+  transform: scale(1.3);
+}
+.main2 > .container > .box-for-swipper-end swiper-slide img {
+  display: block;
+  width: 30%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main2 > .container > .box-for-swipper-end swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  width: 100%;
+  height: 700px;
+  padding: 5rem;
+  background-color: rgb(42, 48, 30);
+  margin-top: 10rem;
+}
+footer > .parent-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+footer > .parent-footer > .child-1-for-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 27%;
+  height: 100%;
+}
+footer > .parent-footer > .child-1-for-footer > .first-icon-for-child-1-for-footer {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+footer > .parent-footer > .child-1-for-footer > .first-icon-for-child-1-for-footer > img {
+  width: 100%;
+}
+footer > .parent-footer > .child-1-for-footer > .first-icon-for-child-1-for-footer > span {
+  font-size: 150%;
+}
+footer > .parent-footer > .child-1-for-footer > .direction-for-child-1-for-footer {
+  width: 100%;
+}
+footer > .parent-footer > .child-1-for-footer > .direction-for-child-1-for-footer > p {
+  text-align: justify;
+}
+footer > .parent-footer > .child-2-for-footer {
+  display: flex;
+  width: 20%;
+}
+footer > .parent-footer > .child-2-for-footer > .tatle-for-Quick-Links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer > .parent-footer > .child-2-for-footer > .tatle-for-Quick-Links > a {
+  text-decoration: none;
+  color: #fff;
+}
+footer > .parent-footer > .child-3-for-footer {
+  display: flex;
+  justify-content: space-around;
+}
+footer > .parent-footer > .child-3-for-footer > .direction-for-child-3-for-footer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer > .parent-footer > .child-3-for-footer > .direction-for-child-3-for-footer > form {
+  display: flex;
+  border: 2px solid #fff;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 5px;
+}
+footer > .parent-footer > .child-3-for-footer > .direction-for-child-3-for-footer > form > input[type=email] {
+  background: none;
+  border: none;
+  width: 75%;
+  direction: rtl;
+}
+footer > .parent-footer > .child-3-for-footer > .direction-for-child-3-for-footer > form > input[type=submit] {
+  border-radius: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=mine.css.map */
