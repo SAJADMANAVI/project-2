@@ -1,3 +1,161 @@
-@include media($lg){
-
+@include media($lg) {
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat {
+        > .box-For-Small-Decs-Ai-Plat {
+          > .description-For-Small-Decs-Ai-Plat {
+            > .description-For-Small-Decs-Ai-Plat-solid-first {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat1 {
+        > .box-For-Small-Decs-Ai-Plat1 {
+          > .description-For-Small-Decs-Ai-Plat1 {
+            > .description-For-Small-Decs-Ai-Plat-solid-first1 {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .parent-box-for-Trendy-House-Plant {
+        > .box-for-Trendy-House-Plant {
+          > .Description-for-swiper-for-that-Trendy-House-Plant {
+            > .buy-now-1 {
+              width: 80% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .Customer-Review {
+      > .paragraf-for-Customer-Review {
+        white-space: nowrap;
+        width: 15% !important;
+        font-size: 20px !important;
+      }
+    }
+  }
+  .main2 {
+    > .container {
+      > .boxs-Customer-Review {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        > .box1-that-boxs-Customer-Review {
+          width: 50% !important;
+        }
+        > .box2-that-boxs-Customer-Review {
+          width: 50% !important;
+        }
+        > .box3-that-boxs-Customer-Review {
+          width: 50% !important;
+        }
+      }
+    }
+  }
+  .main2 {
+    > .big-menu {
+      > .sale-menu {
+        > .row-frist-of-menu {
+          flex-direction: column;
+          gap: 5rem;
+          align-items: center;
+          > .box1-for-sale-menu {
+            width: 50% !important;
+            > .image1-for-box1-for-sale-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+          > .box2-for-sale-menu {
+            width: 50% !important;
+            > .image2-for-box1-for-sale-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+          > .box3-for-sale-menu {
+            width: 50% !important;
+            > .image3-for-box1-for-sale-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+        }
+        > .Row-Second-of-menu {
+          flex-direction: column;
+          gap: 5rem;
+          align-items: center;
+          > .box4-for-sale-menu {
+            width: 50% !important;
+            > .image4-for-Row-Second-of-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+          > .box5-for-sale-menu {
+            width: 50% !important;
+            > .image5-for-Row-Second-of-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+          > .box6-for-sale-menu {
+            width: 50% !important;
+            > .image6-for-Row-Second-of-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat {
+        > .box-For-Small-Decs-Ai-Plat {
+          margin-top: 10rem;
+          height: 70% !important;
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat1 {
+        > .box-For-Small-Decs-Ai-Plat1 {
+          margin-top: 10rem;
+          height: 70% !important;
+        }
+      }
+    }
+  }
+  .navbar {
+    display: none;
+}    
 }

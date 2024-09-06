@@ -43,7 +43,7 @@ body {
       justify-content: space-between;
       // position: fixed;
       // padding: 30px;
-      .header-main {
+      > .header-main {
         margin-top: 30px;
         width: 100%;
         display: flex;
@@ -78,9 +78,15 @@ body {
           display: flex;
           align-items: center;
           gap: 1.5rem;
+          > .img3-shortcuts-for-header {
+            width: 30%;
+            height: 25%;
+          }
           > img {
             transition: 300ms;
-            font-size: 25px;
+            // font-size: 25px;
+
+            width: 20%;
             &:hover {
               transform: scale(1.7);
             }
@@ -206,9 +212,11 @@ body {
           // text-align: center;
           > .Description-first-The-first-vase {
             font-size: 29px;
+            white-space: nowrap;
           }
           > .Description-2-The-first-vase {
             font-size: 57px;
+            white-space: nowrap;
           }
           > .buy-now-1 {
             width: 47%;
@@ -220,6 +228,8 @@ body {
             border-radius: 20px;
             transition: 500ms;
             // transform: translateX(-5.5rem);
+            white-space: nowrap;
+            // padding: 5px;
             cursor: pointer;
             &:hover {
               transform: scale(1.4);
@@ -414,11 +424,12 @@ body {
   > .big-menu {
     padding-top: 10rem;
     width: 100%;
-    height: 100rem;
+
     display: flex;
     > .sale-menu {
       width: 100%;
       height: 100%;
+      gap: 10rem;
       display: flex;
       flex-wrap: wrap;
       // align-items: flex-start;
@@ -433,6 +444,7 @@ body {
           // flex-wrap: wrap;
           align-items: start;
           width: 25%;
+
           height: 37.5rem;
           background: #e5eae70b;
           backdrop-filter: blur(10px);
@@ -471,7 +483,7 @@ body {
                 padding: 8px;
                 transition: 350ms;
                 // margin-bottom: 2rem;
-                transform: translateY(-1rem);
+                // transform: translateY(-1rem);
                 &:hover {
                   transform: scale(1.3);
                 }
@@ -523,7 +535,7 @@ body {
                 padding: 8px;
                 transition: 350ms;
                 // margin-bottom: 2rem;
-                transform: translateY(-1rem);
+                // transform: translateY(-1rem);
                 &:hover {
                   transform: scale(1.3);
                 }
@@ -575,7 +587,7 @@ body {
                 padding: 8px;
                 transition: 350ms;
                 // margin-bottom: 2rem;
-                transform: translateY(-1rem);
+                // transform: translateY(-1rem);
                 &:hover {
                   transform: scale(1.3);
                 }
@@ -632,7 +644,7 @@ body {
                 padding: 8px;
                 transition: 350ms;
                 // margin-bottom: 2rem;
-                transform: translateY(-1rem);
+                // transform: translateY(-1rem);
                 &:hover {
                   transform: scale(1.3);
                 }
@@ -684,7 +696,7 @@ body {
                 padding: 8px;
                 transition: 350ms;
                 // margin-bottom: 2rem;
-                transform: translateY(-1rem);
+                // transform: translateY(-1rem);
                 &:hover {
                   transform: scale(1.3);
                 }
@@ -736,7 +748,7 @@ body {
                 padding: 8px;
                 transition: 350ms;
                 // margin-bottom: 2rem;
-                transform: translateY(-1rem);
+                // transform: translateY(-1rem);
                 &:hover {
                   transform: scale(1.3);
                 }
@@ -960,7 +972,7 @@ body {
 
 footer {
   width: 100%;
-  height: 700px;
+  
   padding: 5rem;
   background-color: rgb(42, 48, 30);
   // border-radius: 50px;
@@ -1044,3 +1056,39 @@ footer {
     }
   }
 }
+
+
+  .navbar{
+    width: 100%;
+    background-color: black;
+    // border-radius: 10px;
+    padding: 10px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    > .menu2 {
+      display: flex;
+      width: 60%;
+      justify-content: space-between;
+      > a {
+        text-decoration: none;
+        color: #fff;
+        transition: 300ms;
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
+    }
+    > .menu-hamberger {
+      width: 5%;
+      > a {
+        width: 100%;
+        > img {
+          width: 100%;
+          background-color: #fff;
+        }
+      }
+    }
+  }

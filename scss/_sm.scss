@@ -1,3 +1,512 @@
-@include media($sm){
-
+@include media($sm) {
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat {
+        height: 400px !important;
+        > .box-For-Small-Decs-Ai-Plat {
+          > .description-For-Small-Decs-Ai-Plat {
+            gap: 1rem !important;
+            > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat {
+              > .explore-1 {
+                font-size: 10px !important;
+              }
+              > .btn-buy-For-Small-Decs-Ai-Plat {
+                padding: 0 !important;
+              }
+            }
+            > .description-For-Small-Decs-Ai-Plat-solid-first {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat1 {
+        height: 400px !important;
+        > .box-For-Small-Decs-Ai-Plat1 {
+          > .description-For-Small-Decs-Ai-Plat1 {
+            gap: 1rem !important;
+            > .The-price-of-the-first-item1 {
+              font-size: 15px !important;
+            }
+            > .parenr-explore-1-and-btn-buy-For-Small-Decs-Ai-Plat1 {
+              > .explore-2 {
+                font-size: 10px !important;
+              }
+              > .btn-buy-For-Small-Decs-Ai-Plat1 {
+                padding: 0 !important;
+              }
+            }
+            > .description-For-Small-Decs-Ai-Plat-solid-first1 {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .parent-box-for-Trendy-House-Plant {
+        > .box-for-Trendy-House-Plant {
+          > .Description-for-swiper-for-that-Trendy-House-Plant {
+            > .buy-now-1 {
+              width: 60% !important;
+              height: 28% !important;
+              font-size: 6px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .Customer-Review {
+      > .paragraf-for-Customer-Review {
+        white-space: nowrap;
+        width: 26% !important;
+        font-size: 20px !important;
+        margin-top: 10rem;
+      }
+    }
+  }
+  .main2 {
+    > .container {
+      > .boxs-Customer-Review {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        > .box1-that-boxs-Customer-Review {
+          width: 50% !important;
+        }
+        > .box2-that-boxs-Customer-Review {
+          width: 50% !important;
+        }
+        > .box3-that-boxs-Customer-Review {
+          width: 50% !important;
+        }
+      }
+    }
+  }
+  .main2 {
+    > .big-menu {
+      > .sale-menu {
+        > .row-frist-of-menu {
+          flex-direction: column;
+          gap: 5rem;
+          align-items: center;
+          > .box1-for-sale-menu {
+            width: 50% !important;
+            > .image1-for-box1-for-sale-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+          > .box2-for-sale-menu {
+            width: 50% !important;
+            > .image2-for-box1-for-sale-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+          > .box3-for-sale-menu {
+            width: 50% !important;
+            > .image3-for-box1-for-sale-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+        }
+        > .Row-Second-of-menu {
+          flex-direction: column;
+          gap: 5rem;
+          align-items: center;
+          > .box4-for-sale-menu {
+            width: 50% !important;
+            > .image4-for-Row-Second-of-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+          > .box5-for-sale-menu {
+            width: 50% !important;
+            > .image5-for-Row-Second-of-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+          > .box6-for-sale-menu {
+            width: 50% !important;
+            > .image6-for-Row-Second-of-menu {
+              height: 60%;
+              > img {
+                height: 100% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat {
+        > .box-For-Small-Decs-Ai-Plat {
+          margin-top: 10rem;
+          height: 70% !important;
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat1 {
+        > .box-For-Small-Decs-Ai-Plat1 {
+          margin-top: 10rem;
+          height: 70% !important;
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .parent-box-for-Trendy-House-Plant {
+        > .box-for-Trendy-House-Plant {
+          > .Description-for-swiper-for-that-Trendy-House-Plant {
+            > .Description-first-The-first-vase {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .parent-box-for-Trendy-House-Plant {
+        > .box-for-Trendy-House-Plant {
+          > .Description-for-swiper-for-that-Trendy-House-Plant {
+            > .Description-2-The-first-vase {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .parent-box-for-Trendy-House-Plant {
+        > .box-for-Trendy-House-Plant {
+          > .swiper-for-Trendy-House-Plant swiper-container {
+            transform: translateY(-3rem) !important;
+          }
+        }
+        > .box-for-Trendy-House-Plant {
+          height: 250px !important;
+          transform: translateY(9rem);
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .parent-box-for-Trendy-House-Plant {
+        > .box-for-Trendy-House-Plant {
+          > .Description-for-swiper-for-that-Trendy-House-Plant {
+            > .buy-now-1 {
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .comment-customer {
+        > .box-comment-customer {
+          transform: translateY(-28rem) !important;
+          > p {
+            font-size: 13px !important;
+            text-align: justify;
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .Our-Trendy-plants {
+        > .desciption-Our-Trendy-plants {
+          font-size: 40px !important;
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat1 {
+        > .box-For-Small-Decs-Ai-Plat1 {
+          > .description-For-Small-Decs-Ai-Plat1 {
+            > .description-For-Small-Decs-Ai-Plat-solid-first1 {
+              font-size: 11px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat {
+        > .box-For-Small-Decs-Ai-Plat {
+          > .description-For-Small-Decs-Ai-Plat {
+            > .description-For-Small-Decs-Ai-Plat-solid-first {
+              font-size: 11px !important;
+            }
+            > .The-price-of-the-first-item {
+              font-size: 15px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    > .parent-footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 5rem;
+      > .child-1-for-footer {
+        width: 50% !important;
+      }
+      > .child-2-for-footer {
+        width: 50% !important;
+        text-align: center;
+        justify-content: center;
+      }
+      > .child-3-for-footer {
+        gap: 3rem;
+        height: 30% !important;
+        > .direction-for-child-3-for-footer {
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .title-main {
+        > .parent-titles {
+          > .heading-primary-main {
+            font-size: 50px !important;
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .title-main {
+        > .parent-titles {
+          > .heading-primary-sub {
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .container {
+      > .title-main {
+        > .parent-titles {
+          > .heading-primary-sub {
+            > .btn-explore {
+              font-size: 10px !important;
+              height: 16% !important;
+              padding: 1px !important;
+            }
+            > .Icon-phrase-live-demo {
+              width: 25px !important;
+              height: 25px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .container {
+    > .boxs-Customer-Review {
+      > .box1-that-boxs-Customer-Review {
+        > .discriptin-img-and-discraption-for-box1 {
+          > p {
+            font-size: 12px !important;
+          }
+        }
+      }
+    }
+  }
+  .container {
+    > .boxs-Customer-Review {
+      > .box2-that-boxs-Customer-Review {
+        > .discriptin-img-and-discraption-for-box2 {
+          > p {
+            font-size: 12px !important;
+          }
+        }
+      }
+    }
+  }
+  .container {
+    > .boxs-Customer-Review {
+      > .box3-that-boxs-Customer-Review {
+        > .discriptin-img-and-discraption-for-box3 {
+          > p {
+            font-size: 12px !important;
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .container {
+      > .box-for-swipper-end swiper-slide {
+        > .disciptsin-for-box-for-swipper-end-slide1 {
+          > .paragraph-for-slide1 {
+            font-size: 10px !important;
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .container {
+      > .box-for-swipper-end swiper-slide {
+        > .disciptsin-for-box-for-swipper-end-slide1 {
+          > .parent-button-for-slide1 {
+            > .button-for-slide1 {
+              width: 20% !important;
+              // height: 15% !important;
+              padding: 1px !important;
+              font-size: 10px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .big-menu {
+      > .sale-menu {
+        > .Row-Second-of-menu {
+          > .box6-for-sale-menu {
+            > .description-for-image6-for-box1-for-sale-menu {
+              > .parent-button-for-box6 {
+                width: 87% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .big-menu {
+      > .sale-menu {
+        > .Row-Second-of-menu {
+          > .box5-for-sale-menu {
+            > .description-for-image5-for-box1-for-sale-menu {
+              > .parent-button-for-box5 {
+                width: 87% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .big-menu {
+      > .sale-menu {
+        > .Row-Second-of-menu {
+          > .box4-for-sale-menu {
+            > .description-for-image4-for-box1-for-sale-menu {
+              > .parent-button-for-box4 {
+                width: 87% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .big-menu {
+      > .sale-menu {
+        > .row-frist-of-menu {
+          > .box1-for-sale-menu {
+            > .description-for-image1-for-box1-for-sale-menu {
+              > .parent-button-for-box1 {
+                width: 87% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .big-menu {
+      > .sale-menu {
+        > .row-frist-of-menu {
+          > .box2-for-sale-menu {
+            > .description-for-image2-for-box1-for-sale-menu {
+              > .parent-button-for-box2 {
+                width: 87% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    > .big-menu {
+      > .sale-menu {
+        > .row-frist-of-menu {
+          > .box3-for-sale-menu {
+            > .description-for-image3-for-box1-for-sale-menu {
+              > .parent-button-for-box3 {
+                width: 87% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main1 {
+    > .for-header {
+      > header {
+        > .header-main {
+          > .menu-for-header-main {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }
