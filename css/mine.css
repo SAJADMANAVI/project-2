@@ -1743,7 +1743,7 @@ footer > .parent-footer > .child-3-for-footer > .direction-for-child-3-for-foote
   padding-right: 5rem;
   position: fixed;
   bottom: 0;
-  z-index: 1;
+  z-index: 9999;
 }
 .navbar > .menu2 {
   display: flex;

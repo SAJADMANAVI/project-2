@@ -1,0 +1,92 @@
+@font-face {
+    font-family: fa-font;
+    src: url(../fonts/IRANSansDN.ttf);
+    src: url(../fonts/IRANSansDN.woff);
+    src: url(../fonts/iransansdn.woff2);
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/pexels-kostiantyn-17119199.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: fa-font;
+}
+
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    // background-image: url('../img/pexels-kostiantyn-17119199.jpg');
+    // background-size: cover;
+    // background-position: center;
+}
+
+.signup-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.gender {
+    display: flex;
+    justify-content: center;
+}
+
+.gender label {
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    direction: rtl;
+    font-family: fa-font;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: fa-font;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .signup-form {
+        width: 90%;
+    }
+}
