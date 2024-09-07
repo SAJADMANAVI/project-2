@@ -19,6 +19,9 @@
   .main1 > .container > .parent-box-for-Trendy-House-Plant > .box-for-Trendy-House-Plant > .Description-for-swiper-for-that-Trendy-House-Plant > .buy-now-1 {
     width: 60% !important;
   }
+  .navbar {
+    display: none;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .main1 > .container > .For-Small-Decs-Ai-Plat > .box-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat > .description-For-Small-Decs-Ai-Plat-solid-first {
@@ -509,6 +512,9 @@
   .main1 > .for-header > header > .header-main > .menu-for-header-main {
     display: none;
   }
+  .navbar > .menu2 > a {
+    font-size: 10px;
+  }
 }
 @media (max-width: 540px) {
   .main1 > .container > .For-Small-Decs-Ai-Plat {
@@ -743,6 +749,9 @@
   }
   .main1 > .for-header > header > .header-main > .menu-for-header-main {
     display: none;
+  }
+  .navbar > .menu2 > a {
+    font-size: 8px;
   }
 }
 * {
@@ -1728,7 +1737,7 @@ footer > .parent-footer > .child-3-for-footer > .direction-for-child-3-for-foote
 
 .navbar {
   width: 100%;
-  background-color: black;
+  background-color: rgb(12, 53, 7);
   padding: 10px;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -1745,6 +1754,7 @@ footer > .parent-footer > .child-3-for-footer > .direction-for-child-3-for-foote
   text-decoration: none;
   color: #fff;
   transition: 300ms;
+  white-space: nowrap;
 }
 .navbar > .menu2 > a:hover {
   transform: scale(1.3);
@@ -1754,8 +1764,15 @@ footer > .parent-footer > .child-3-for-footer > .direction-for-child-3-for-foote
 }
 .navbar > .menu-hamberger > a {
   width: 100%;
+  white-space: nowrap;
 }
 .navbar > .menu-hamberger > a > img {
   width: 100%;
   background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 300ms;
+}
+.navbar > .menu-hamberger > a > img:hover {
+  transform: scale(1.3);
 }/*# sourceMappingURL=mine.css.map */

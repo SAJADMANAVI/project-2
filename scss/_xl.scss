@@ -1,44 +1,44 @@
 @include media($xl) {
-    .main1 {
-        > .container {
-            > .For-Small-Decs-Ai-Plat {
-                > .box-For-Small-Decs-Ai-Plat {
-                    > .description-For-Small-Decs-Ai-Plat {
-                        > .description-For-Small-Decs-Ai-Plat-solid-first {
-                            font-size: 25px !important; 
-                        }  
-                    }
-                }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat {
+        > .box-For-Small-Decs-Ai-Plat {
+          > .description-For-Small-Decs-Ai-Plat {
+            > .description-For-Small-Decs-Ai-Plat-solid-first {
+              font-size: 25px !important;
             }
+          }
         }
+      }
     }
-    .main1 {
-        > .container {
-            > .For-Small-Decs-Ai-Plat1 {
-                > .box-For-Small-Decs-Ai-Plat1 {
-                    > .description-For-Small-Decs-Ai-Plat1 {
-                        > .description-For-Small-Decs-Ai-Plat-solid-first1 {
-                            font-size: 25px !important;
-                        }  
-                    }
-                }
+  }
+  .main1 {
+    > .container {
+      > .For-Small-Decs-Ai-Plat1 {
+        > .box-For-Small-Decs-Ai-Plat1 {
+          > .description-For-Small-Decs-Ai-Plat1 {
+            > .description-For-Small-Decs-Ai-Plat-solid-first1 {
+              font-size: 25px !important;
             }
+          }
         }
+      }
     }
-    .main1 {
-        > .container {
-            > .parent-box-for-Trendy-House-Plant {
-                > .box-for-Trendy-House-Plant {
-                    > .Description-for-swiper-for-that-Trendy-House-Plant {
-                        > .buy-now-1 {
-                            width: 60% !important;
-                        }
-                    }
-                }
-            } 
+  }
+  .main1 {
+    > .container {
+      > .parent-box-for-Trendy-House-Plant {
+        > .box-for-Trendy-House-Plant {
+          > .Description-for-swiper-for-that-Trendy-House-Plant {
+            > .buy-now-1 {
+              width: 60% !important;
+            }
+          }
         }
+      }
     }
-    .navbar {
-        // display: none;
-    }    
+  }
+  .navbar {
+    display: none;
+  } 
 }
